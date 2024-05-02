@@ -9,13 +9,13 @@ hostname = api.goodnotes.com
 
 var sj1010 = JSON.parse($response.body);
 
-sj1010["identity"]["metadata_public"]["metadata_public"]["entitlements"]["apple_access"] = {
+sj1010["identity"]["metadata_public"]["entitlements"]["apple_access"] = {
             "expires_at": 7943117641000
           };
-sj1010["identity"]["metadata_public"]["metadata_public"]["entitlements"]["crossplatform_access"] = {
+sj1010["identity"]["metadata_public"]["entitlements"]["crossplatform_access"] = {
             "expires_at": 7943117641000
           };
-sj1010["identity"]["metadata_public"]["metadata_public"]["entitlements"]["premium"] = {
+sj1010["identity"]["metadata_public"]["entitlements"]["premium"] = {
             "expires_at": 7943117641000
           };
 
